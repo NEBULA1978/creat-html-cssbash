@@ -1,0 +1,478 @@
+    Skip to main content
+    Skip to search
+    Skip to select language
+
+GitLabGitLab is the most comprehensive AI-powered DevSecOps Platform. Software. Faster.
+Build Software Fast
+Mozilla ads
+Don't want to see ads?
+
+    References
+    Guides
+    Plus
+    Blog
+    Play
+    AI Help
+    Beta
+
+Search MDN
+
+    Log in
+    Sign up for free
+
+    Tecnología para desarrolladores web
+    flex
+
+This page was translated from English by the community. Learn more and join the MDN Web Docs community.
+Filter sidebar
+In this article
+
+    Resumen
+    Sintaxis
+    Ejemplo
+    Especificaciones
+    Compatibilidad con navegadores
+    Ver también
+
+    CSS
+    Tutorials
+    CSS basics
+    CSS first steps
+    CSS building blocks
+    Styling text
+    CSS layout
+    Reference
+    Modules
+    Properties
+        -moz-*
+        -webkit-*
+        accent-color
+        (en-US)
+        align-*
+        all
+        animation-*
+        appearance
+        aspect-ratio
+        (en-US)
+        backdrop-filter
+        backface-visibility
+        background-*
+        block-size
+        border-*
+        bottom
+        box-*
+        break-*
+        caption-side
+        (en-US)
+        caret-color
+        clear
+        clip Obsoleto
+        clip-path
+        (en-US)
+        color
+        color-scheme
+        (en-US)
+        column-*
+        columns
+        (en-US)
+        contain-*
+        container-*
+        content
+        content-visibility
+        (en-US)
+        Experimental
+        counter-*
+        cursor
+        direction
+        display
+        empty-cells
+        (en-US)
+        filter
+        flex-*
+            flex
+            flex-basis
+            flex-direction
+            flex-flow
+            flex-grow
+            flex-shrink
+            flex-wrap
+        float
+        font-*
+        forced-color-adjust
+        (en-US)
+        gap
+        grid-*
+        hanging-punctuation
+        (en-US)
+        height
+        hyphenate-character
+        (en-US)
+        hyphenate-limit-chars
+        (en-US)
+        hyphens
+        image-*
+        initial-letter
+        (en-US)
+        Experimental
+        initial-letter-align
+        (en-US)
+        Experimental
+        inline-size
+        inset-*
+        isolation
+        justify-*
+        left
+        letter-spacing
+        (en-US)
+        line-*
+        list-*
+        margin-*
+        mask-*
+        masonry-auto-flow
+        (en-US)
+        Experimental
+        math-*
+        max-*
+        min-*
+        mix-blend-mode
+        object-fit
+        object-position
+        offset-*
+        opacity
+        order
+        orphans
+        (en-US)
+        outline-*
+        overflow-*
+        overlay
+        (en-US)
+        Experimental
+        overscroll-*
+        padding-*
+        page-*
+        paint-order
+        (en-US)
+        perspective
+        perspective-origin
+        (en-US)
+        place-*
+        pointer-events
+        (en-US)
+        position
+        print-color-adjust
+        quotes
+        resize
+        right
+        rotate
+        (en-US)
+        row-gap
+        (en-US)
+        ruby-align
+        (en-US)
+        Experimental
+        ruby-position
+        (en-US)
+        scale
+        (en-US)
+        scroll-*
+        scrollbar-*
+        shape-*
+        tab-size
+        (en-US)
+        table-layout
+        (en-US)
+        text-*
+        timeline-scope
+        (en-US)
+        Experimental
+        top
+        touch-action
+        (en-US)
+        transform-*
+        transition-*
+        translate
+        (en-US)
+        unicode-bidi
+        (en-US)
+        user-modify Non-standard Obsoleto
+        user-select
+        vertical-align
+        view-*
+        visibility
+        white-space
+        white-space-collapse
+        (en-US)
+        Experimental
+        widows
+        width
+        will-change
+        (en-US)
+        word-break
+        (en-US)
+        word-spacing
+        (en-US)
+        writing-mode
+        z-index
+        zoom Non-standard 
+    Selectors
+    Combinators
+    Pseudo-classes
+    Pseudo-elements
+    At-rules
+    Functions
+    Types
+    Guides
+    Animations
+    Backgrounds and Borders
+    Box alignment
+    Box model
+    Colors
+    Columns
+    Conditional rules
+    CSSOM view
+    Flexbox
+    Flow layout
+    Fonts
+    Grid
+    Images
+    Lists and counters
+    Logical properties
+    Math functions
+    Media queries
+    Nesting style rules
+    Positioning
+    Scroll snap
+    Shapes
+    Text
+    Transforms
+    Transitions
+    Layout cookbook
+        Media objects
+        (en-US)
+        Columns
+        (en-US)
+        Center an element
+        (en-US)
+        Sticky footers
+        (en-US)
+        Split navigation
+        (en-US)
+        Breadcrumb navigation
+        (en-US)
+        List group with badges
+        (en-US)
+        Pagination
+        (en-US)
+        Card
+        (en-US)
+        Grid wrapper
+        (en-US)
+    Tools
+        Color picker
+        Box shadow generator
+        (en-US)
+        Border image generator
+        Border radius generator
+
+GitLabLoved by developers. Trusted by enterprises. Start your free 30 day trial.
+Mozilla ads
+Don't want to see ads?
+flex
+Baseline Widely available
+Resumen
+
+La propiedad CSS flex es una propiedad resumida que indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible. Los elementos flexibles pueden ser estirados para utilizar el espacio disponible proporcional a su factor de crecimiento flexible o su factor de contracción flexible para evitar desbordamiento.
+Valor inicial	as each of the properties of the shorthand:
+
+    flex-grow: 0
+    flex-shrink: 1
+    flex-basis: auto
+
+Applies to	flex items, including in-flow pseudo-elements
+Heredable	no
+Valor calculado	as each of the properties of the shorthand:
+
+    flex-grow: como se especifica
+    flex-shrink: como se especifica
+    flex-basis: as specified, but with relative lengths converted into absolute lengths
+
+Animation type	as each of the properties of the shorthand:
+
+    flex-grow: a number
+    flex-shrink: a number
+    flex-basis: a length, percentage or calc();
+
+Consulte Cómo usar las cajas flexibles de CSS para conocer más propiedades e información.
+Sintaxis
+css
+
+/* 0 0 auto */
+flex: none;
+
+/* Un valor, número sin unidades: flex-grow */
+flex: 2;
+
+/* Un valor, width/height: flex-basis */
+flex: 10em;
+flex: 30px;
+flex: auto;
+flex: content;
+
+/* Dos valores: flex-grow | flex-basis */
+flex: 1 30px;
+
+/* Dos valores: flex-grow | flex-shrink */
+flex: 2 2;
+
+/* Tres valores: flex-grow | flex-shrink | flex-basis */
+flex: 2 2 10%;
+
+/* Valores globales */
+flex: inherit;
+flex: initial;
+flex: unset;
+
+Valores
+
+<'flex-grow'>
+
+    Define el flex-grow del elemento flexible. Ver { { Xref_cssnumber ( ) } } para obtener más detalles. Los valores negativos no se consideran válidos. El valor predeterminado es 1 cuando se omite.
+<'flex-shrink'>
+
+    Define el flex-shrink del elemento flexible. Ver { { Xref_cssnumber ( ) } } para obtener más detalles. Los valores negativos no se consideran válidos. El valor predeterminado es 1 cuando se omite.
+<'flex-basis'>
+
+    Define el flex-basis (en-US) del elemento flexible. Se acepta cualquier valor válido para las propiedades width y height. Un tamaño preferente de 0 debe tener una unidad para evitar ser interpretado como flexible. El valor predeterminado es 0% cuando se omite.
+none
+
+    Esta palabra clave se computa a 0 0 auto.
+
+Sintaxis normal
+
+flex = 
+  none                                                |
+  [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]  
+
+Ejemplo
+css
+
+#flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+#flex-container > .flex-item {
+  -webkit-flex: auto;
+  flex: auto;
+}
+
+#flex-container > .raw-item {
+  width: 5rem;
+}
+
+html
+
+<div id="flex-container">
+  <div class="flex-item" id="flex">Flex box (click to toggle raw box)</div>
+  <div class="raw-item" id="raw">Raw box</div>
+</div>
+
+Resultado
+Especificaciones
+Specification
+CSS Flexible Box Layout Module Level 1
+# flex-property
+Compatibilidad con navegadores
+Report problems with this compatibility data on GitHub
+	desktop	mobile
+	
+Chrome
+	
+Edge
+	
+Firefox
+	
+Opera
+	
+Safari
+	
+Chrome Android
+	
+Firefox for Android
+	
+Opera Android
+	
+Safari on iOS
+	
+Samsung Internet
+	
+WebView Android
+flex
+	
+Legend
+
+Tip: you can click/tap on a cell for more information.
+
+Full support
+    Full support
+    Requires a vendor prefix or different name for use.
+    Has more compatibility info.
+
+Ver también
+
+    Usar las cajas felxibles de CSS
+
+Found a content problem with this page?
+
+    Edit the page on GitHub.
+    Report the content issue.
+    View the source on GitHub.
+
+Want to get more involved? Learn how to contribute.
+
+This page was last modified on 25 jul 2023 by MDN contributors.
+Gitlab
+Mozilla ads
+Don't want to see ads?
+
+Your blueprint for a better internet.
+
+    MDN on Mastodon
+    MDN on Twitter
+    MDN on GitHub
+    MDN Blog RSS Feed
+
+MDN
+
+    About
+    Blog
+    Careers
+    Advertise with us
+
+Support
+
+    Product help
+    Report an issue
+
+Our communities
+
+    MDN Community
+    MDN Forum
+    MDN Chat
+
+Developers
+
+    Web Technologies
+    Learn Web Development
+    MDN Plus
+    Hacks Blog
+
+    Website Privacy Notice
+    Cookies
+    Legal
+    Community Participation Guidelines
+
+Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+Portions of this content are ©1998–2024 by individual mozilla.org contributors. Content available under a Creative Commons license.
